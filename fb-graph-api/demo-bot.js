@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Replace with your actual values
-const PAGE_ACCESS_TOKEN = '';
+const PAGE_ACCESS_TOKEN = 'EAASjmIeqloMBOzyfNyq4ZBqQ0bFelUjm5CUEjYvm8Ed9CMohFITb52fuuReB1HE2Eg4lQKPIn9XlGv31cAnellHqdbLHoTGgYNbiZC0xh55rBsHYSzwliS8OXIVWIn7EEZBXXNeABr25Gx3ZBPm67dnV6QPEBfmlcz2ltrZBV13rOzryOv3Xn6i0EiUbmRunGfB5F5FaU7NWp6EOo1QZDZD';
 const VERIFY_TOKEN = '1234';
 
 const api = new FacebookGraphAPI(PAGE_ACCESS_TOKEN);
